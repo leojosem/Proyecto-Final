@@ -1,0 +1,49 @@
+@import '../base/extends';
+@import '../base/mixins';
+@import '../base/listas';
+
+.container{
+    margin: 20px;
+    div{
+        .info{
+            width: 300px;
+            height: 380px;
+            background-color: nth($colores, 1);
+            padding: 10px;
+            margin: 0px 100px;
+            img{
+                max-width: 98%;
+                max-height: auto;
+            }
+            div{
+                p{
+                    font-size: 12px;
+                    font-family: Arial, sans-serif;
+                    justify-content: justify;
+                    font-weight: bold;
+                }
+
+            }
+        }
+        div{
+            .galeria{
+                width: fit-content;
+                height: fit-content;
+                padding: 10px;
+                display: flex;
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    img:hover{
+                        filter: brightness(60%);
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,29 @@
+@import '../base/extends';
+@import '../base/mixins';
+@import '../base/listas';
+
+main{
+    section{
+        .card-productos{
+            @include tarjeta(70%);
+            height: fit-content;
+            background-color: nth($colores, 1);
+            .card-productos-principal{
+                .col{
+                    width: auto;
+                    .card-img-top{
+                        @extend %galeriapys;
+                    }
+                    .card-title{
+                        font-size: 30px;
+                        font-family: Arial, sans-serif;
+                        text-align: center;
+                        font-weight: bold;
+                        color: nth($colores, 3);
+                    }
+                
+                }
+            }
+        }
+    }
+}

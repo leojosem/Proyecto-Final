@@ -1,3 +1,11 @@
+main section .card-productos .card-productos-principal .col .card-img-top {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
+}
+
 header nav {
   background-color: white;
 }
@@ -27,6 +35,14 @@ header nav .container-fluid .collapse ul li a a:hover {
   }
 }
 
+main section .card-productos .card-productos-principal .col .card-img-top {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
+}
+
 footer .container-fluid-footer {
   width: 100%;
   height: fit-content;
@@ -49,6 +65,14 @@ footer .container-fluid-footer .rs .rs:hover {
   footer .container-fluid-footer {
     justify-content: end;
   }
+}
+
+main section .card-productos .card-productos-principal .col .card-img-top {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
 }
 
 .container {
@@ -84,6 +108,151 @@ footer .container-fluid-footer .rs .rs:hover {
 }
 .container div div .galeria img img:hover {
   filter: brightness(60%);
+}
+
+main section .card-productos .card-productos-principal .col .card-img-top {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
+}
+
+main section .card {
+  width: 50%;
+  height: auto;
+  background-color: #ECECEC;
+}
+@media only screen and (max-width: 480px) {
+  main section .card {
+    width: 90%;
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 480px) {
+  main section .card {
+    width: 90%;
+  }
+}
+main section .card .card-body .repostera {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  height: fit-content;
+}
+main section .card .card-body .card-text1 {
+  text-align: justify;
+  height: fit-content;
+}
+main section .card .card-body .card-text2 {
+  text-align: justify;
+  margin-bottom: 2px;
+}
+main section .card .card-body .card-img-bottom {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
+}
+@media only screen and (orientation: landscape) and (max-width: 480px) {
+  main section .card .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+main section .card-productos {
+  width: 70%;
+  height: fit-content;
+  background-color: #ECECEC;
+  border-radius: 8px;
+  border: 1px solid #c6c6c6;
+}
+main section .card-productos .card-productos-principal .col {
+  width: auto;
+}
+main section .card-productos .card-productos-principal .col .card-title {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #F9A2A9;
+}
+
+main section .card-productos .card-productos-principal .col .card-img-top {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
+}
+
+main section .card-productos {
+  width: 70%;
+  height: fit-content;
+  background-color: #ECECEC;
+}
+main section .card-productos .card-productos-principal .col {
+  width: auto;
+}
+main section .card-productos .card-productos-principal .col .card-title {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #F9A2A9;
+}
+
+main section .card-productos .card-productos-principal .col .card-img-top {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
+}
+
+.card-productos {
+  width: 70%;
+  height: fit-content;
+  background-color: #ECECEC;
+}
+.card-productos div {
+  width: 100;
+  height: auto;
+}
+.card-productos div h1 {
+  color: #F9A2A9;
+  margin-bottom: 2%;
+  /*             font-size: 100%;
+   */
+}
+.card-productos div .form {
+  width: 60%;
+  height: fit-content;
+  margin: 30px 0;
+  font-family: Arial, sans-serif;
+  border: 2px white solid;
+  background-color: #F9A2A9;
+  border-radius: 10px;
+}
+.card-productos div .form .form-control {
+  width: 95%;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #F9A2A9;
+  border: 1px white e solid;
+  color: white;
+  margin: 2%;
+  font-size: 20px;
+}
+
+main section .card-productos .card-productos-principal .col .card-img-top {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin: 30px;
+  border: #F9A2A9 5px solid;
 }
 
 /*# sourceMappingURL=style.css.map */

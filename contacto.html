@@ -14,59 +14,75 @@
 
 </head>
   <body>
-    <header >
-        <nav class="navbar navbar-expand-lg sticky-md-top">
-            <div class="container-fluid">
-                <img src="media/logo.png" class="logo">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex  align-items-center" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 cabecera__lista justify-content-end ">
-                  <li class="nav-item cabecera__lista__item">
-                    <a class="nav-link" aria-current="page" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item cabecera__lista__item">
-                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-                  </li>
-                  <li class="nav-item cabecera__lista__item">
-                    <a class="nav-link" href="productos.html" >PRODUCTOS</a>
-                  </li>
-                  <li class="nav-item cabecera__lista__item">
-                    <a class="nav-link" href="servicios.html">SERVICIOS</a>
-                  </li>
-                  <li class="nav-item cabecera__lista__item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                  </li>
-                </ul>
-            
-              </div>
-            </div>
-          </nav>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./media/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul
+              class="navbar-nav  mb-2 mb-lg-0 cabecera__lista justify-content-end"
+            >
+              <li class="nav-item cabecera_lista_item d-flex justify-content-center">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item cabecera_lista_item d-flex justify-content-center">
+                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item cabecera_lista_item d-flex justify-content-center">
+                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item cabecera_lista_item d-flex justify-content-center">
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item cabecera_lista_item d-flex justify-content-center">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-
 <main>
     <section class="d-flex justify-content-center">
-        <div class="card-productos   p-3">
-            <div>
-            <h1>¡Contáctanos!</h1>
+        <div class="card-productos w-70 p-3">
+            <div class="">
+            <h1 class="d-flex justify-content-center">¡Contáctanos!</h1>
             </div>
             <div class="form ">
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                <div class="mb-3 d-flex justify-content-center">
+                    <input type="text" class="form-control w-75" id="exampleFormControlInput1" placeholder="Nombre">
                 </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+                <div class="mb-3 d-flex justify-content-center">
+                    <input type="email" class="form-control w-75" id="exampleFormControlInput1" placeholder="Correo Electrónico">
                 </div>
-                <div class="mb-3">
-                    <input type="tel" placeholder="Número de Contacto" class="form-control">
+                <div class="mb-3 d-flex justify-content-center"  >
+                    <input type="tel" placeholder="Número de Contacto" class="form-control w-75">
                 </div>
-                <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Que te gustaría saber?"></textarea>
-                </div> 
+                <div class="mb-3 d-flex justify-content-center">
+                    <textarea class="form-control w-75" id="exampleFormControlTextarea1" rows="3" placeholder="¿Que te gustaría saber?"></textarea>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <input class="btn btn-secondary d-flex justify-content-center" type="submit" value="Submit">
+                </div>
+                
             </div>
-            <div>
-                <div class="card mb-3" style="max-width: 540px;">
+            <div class="d-flex justify-content-center">
+                <div class="card mb-3 d-flex justify-content-center" style="max-width: 640px;">
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="media/mall.png" class="img-fluid rounded-start" alt="Galerias Mall">
@@ -91,24 +107,23 @@
 <footer class="">
   <div class="container-fluid-footer d-flex">
       <img src="media/logo.png" class="logo ">
-    <div class="collapse navbar-collapse d-flex " id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-end">
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 flex-row justify-content-end">
         <li class="nav-item cabecera__lista__item ">
-          <a href="https://www.facebook.com/"><img class="rs " src="media/facebook.png" alt=""></a>
+          <a href="https://www.facebook.com/"><img class="rs " src="media/facebook.png" alt="Facebook"></a>
         </li>
         <li class="nav-item cabecera__lista__item ">
-          <a href="https://www.instagram.com/"><img class="rs" src="media/instagram.png" alt=""></a>
+          <a href="https://www.instagram.com/"><img class="rs" src="media/instagram.png" alt="Instagram"></a>
         </li>
         <li class="nav-item cabecera__lista__item ">
-          <a href="https://www.twitter.com/"><img class="rs" src="media/twitter.png" alt=""></a>
+          <a href="https://www.twitter.com/"><img class="rs" src="media/twitter.png" alt="Twitter"></a>
         </li>
 
       </ul>
   
     </div>
   </div>
-</footer>
-<!-- Footer-->
+</footer><!-- Footer-->
 
 
 

@@ -8,6 +8,7 @@ footer{
         height: fit-content;
         background-color: nth($colores, 1);
         margin-top: 10px;
+        margin-bottom: 10px;
         .logo{
             width: 150px;
             padding-left: 20px;
@@ -16,7 +17,7 @@ footer{
             justify-content: end;
             margin: 5px 10px;
             width: 40px;
-            .rs:hover{
+            &:hover{
                 transform: scale(1.5);
             }
         }

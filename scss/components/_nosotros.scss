@@ -11,20 +11,24 @@ main{
 
             @media only screen and (max-width: 480px){
                     width: 90%;
+                
                 }
             @media only screen and (orientation: landscape) and (max-width: 480px) {
                     width: 90%;
                 }    
 
             .card-body{
-                .repostera{
-                    border-radius: 50%;
-                    width: 50%;
-                    height: 50%;
-                    justify-content: center;
-                    height: fit-content;
-
+                .repos{
+                    .repostera{
+                        border-radius: 50%;
+                        width: 50%;
+                        height: 50%;
+                        justify-content: center;
+                        height: fit-content;
+    
+                    }
                 }
+            
                 .card-text1{
                     text-align: justify;
                     height: fit-content;
